@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Memory">
+      <UniqueIdentifier>{2ae7dbdc-358c-4f82-bc30-31c57e88de20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Game">
+      <UniqueIdentifier>{496e783e-913b-422f-bd75-f0a8443901b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Game">
+      <UniqueIdentifier>{7634e0b1-71e0-432b-9f71-5ba8bb3ec8ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\GameVersion">
+      <UniqueIdentifier>{ee78c5c5-01a1-4f70-a210-ec22d506ddaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\GameVersion">
+      <UniqueIdentifier>{926c15e3-e71d-4ca2-b2fa-e70dba5c62ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\PacketManager">
+      <UniqueIdentifier>{a2e31c54-c618-4a0f-ba8b-a8efff671269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\PacketManager">
+      <UniqueIdentifier>{b209b67f-a506-4f84-8c18-a7bd10e6ef66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Discord">
+      <UniqueIdentifier>{bc002023-ca24-4f0e-9f2f-3f472daa4119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Discord">
+      <UniqueIdentifier>{7fafda77-5ac8-4bec-a8fd-da940a05b51f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Discord\discord-game-sdk">
+      <UniqueIdentifier>{34e5093f-525e-4dcc-92c1-84e4ba5a09b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Basic">
+      <UniqueIdentifier>{35716fae-c9c1-408c-84eb-d610bb9e1e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Basic">
+      <UniqueIdentifier>{50d3d25b-08de-465f-9582-50922dc99351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\3rdparty">
+      <UniqueIdentifier>{b3f0bcbd-9608-432c-8f1c-91e3304f1add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\3rdparty\VMProtect">
+      <UniqueIdentifier>{06d3f06a-90e5-49a9-b0d9-77bcb167f62c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\DLLSec">
+      <UniqueIdentifier>{43a2127b-7d73-42a3-a193-97104296e720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\DLLSec">
+      <UniqueIdentifier>{db43281b-0110-492f-bf24-f140d73faa1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\3rdparty\Encrypt">
+      <UniqueIdentifier>{2c6ae340-2b3f-4609-8bd9-3b0bc81b2cd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Screen">
+      <UniqueIdentifier>{3709d3f3-e2a7-45f3-b287-c85cfa030c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Screen">
+      <UniqueIdentifier>{c0b99cc9-ba7f-4bc2-9931-40be3ed0611d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\WndProc">
+      <UniqueIdentifier>{fc577fe7-ed43-49c9-9c38-42db8b5b3ba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\WndProc">
+      <UniqueIdentifier>{cbee0c94-f83c-44b4-b664-7a6cc5a7247d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\DirectX">
+      <UniqueIdentifier>{2198f199-c58d-4eb9-8e01-2d842874550c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\DirectX">
+      <UniqueIdentifier>{fd33c3c2-4938-4d89-a9d4-88445de70cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\BM3Sinergy">
+      <UniqueIdentifier>{e5c261de-5c81-420c-b554-69f6dbf42849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\BM3Sinergy">
+      <UniqueIdentifier>{97975631-6d79-493c-a890-1b21d8d92dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\cDescription">
+      <UniqueIdentifier>{997e8df7-7c03-43a4-9533-077605f66660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\cDescription">
+      <UniqueIdentifier>{93cf5187-4ace-47fc-b98b-cf945be33e4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\GenericButton">
+      <UniqueIdentifier>{ba1680aa-3ad1-45b3-930c-0fd324aced8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\GenericButton">
+      <UniqueIdentifier>{888b7b1b-6c47-4e98-8c5b-7d1a875aa438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\EventAlert">
+      <UniqueIdentifier>{28273301-c45b-4a41-a8d0-6ec3841e9005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\EventAlert">
+      <UniqueIdentifier>{185c0db0-7357-46f6-aafd-e514edc11ad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\WindowObj">
+      <UniqueIdentifier>{4a30da2f-625f-496c-a552-3c691ffc4725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Slot">
+      <UniqueIdentifier>{f7aaaa37-02b9-42a0-b3e6-3582044d7f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Slot">
+      <UniqueIdentifier>{67cd0ad4-37a5-4b85-87f3-75be3106a9f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Proc">
+      <UniqueIdentifier>{add96512-b852-449d-b833-25dc900db278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Proc">
+      <UniqueIdentifier>{10001f29-18f1-4f5d-a074-87b47843b693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\GameCustom">
+      <UniqueIdentifier>{8168b643-2bd4-4d2a-8f70-9323fef3f2a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\GameCustom">
+      <UniqueIdentifier>{14622133-5031-46fc-9960-81b2220b3cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\GameCustom\MacroBM3">
+      <UniqueIdentifier>{e8c3ab09-9bcc-4975-bc04-e3b5c8f3fd62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\GameCustom\MacroBM3">
+      <UniqueIdentifier>{e335fc0e-f403-428f-964c-fcd3627644f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Logs">
+      <UniqueIdentifier>{1ce1dd6a-3ab8-4c36-8f54-00e1ac898dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Logs">
+      <UniqueIdentifier>{ddd693fc-62d6-4e43-b433-6c12622453e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\GameCustom\MyDraw">
+      <UniqueIdentifier>{baa83ff8-07d9-4c96-b7e1-a3a18e775a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\GameCustom\UserDataContextMapping">
+      <UniqueIdentifier>{9fd63ab0-7bc3-4f2c-a68d-911de6468724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\GameCustom\UserDataContextMapping">
+      <UniqueIdentifier>{aac51a82-2136-4c6b-9405-25584a83ee59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\GameCustom\MyDraw">
+      <UniqueIdentifier>{79c81467-ebb7-4089-82d5-2d07124e330d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Memory\Memory.h">
+      <Filter>Arquivos de Cabeçalho\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Arquivos de Cabeçalho\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager\PacketManager.h">
+      <Filter>Arquivos de Cabeçalho\PacketManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager\ProtoDefEx.h">
+      <Filter>Arquivos de Cabeçalho\PacketManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager\ProtosDef.h">
+      <Filter>Arquivos de Cabeçalho\PacketManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameVersion\GameVersion.h">
+      <Filter>Arquivos de Cabeçalho\GameVersion</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\Discord.h">
+      <Filter>Arquivos de Cabeçalho\Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord-game-sdk\achievement_manager.h">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord-game-sdk\activity_manager.h">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord-game-sdk\application_manager.h">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord-game-sdk\core.h">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord-game-sdk\discord.h">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord-game-sdk\event.h">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord-game-sdk\ffi.h">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord-game-sdk\image_manager.h">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord-game-sdk\lobby_manager.h">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord-game-sdk\network_manager.h">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord-game-sdk\overlay_manager.h">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord-game-sdk\relationship_manager.h">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord-game-sdk\resource.h">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord-game-sdk\storage_manager.h">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord-game-sdk\store_manager.h">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord-game-sdk\types.h">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord-game-sdk\user_manager.h">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord-game-sdk\voice_manager.h">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Basic.h">
+      <Filter>Arquivos de Cabeçalho\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDef.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\VMProtect\VMProtectSDK.h">
+      <Filter>Arquivos de Cabeçalho\3rdparty\VMProtect</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLSec\DLLSec.h">
+      <Filter>Arquivos de Cabeçalho\DLLSec</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\Encrypt\EncryptString.h">
+      <Filter>Arquivos de Cabeçalho\3rdparty\Encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen\Screen.h">
+      <Filter>Arquivos de Cabeçalho\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="WndProc\WndProc.h">
+      <Filter>Arquivos de Cabeçalho\WndProc</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DirectX.h">
+      <Filter>Arquivos de Cabeçalho\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DirectXTypes.h">
+      <Filter>Arquivos de Cabeçalho\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="BM3Sinergy\BM3Sinergy.h">
+      <Filter>Arquivos de Cabeçalho\BM3Sinergy</Filter>
+    </ClInclude>
+    <ClInclude Include="cDescription\cDescription.h">
+      <Filter>Arquivos de Cabeçalho\cDescription</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericButton\GenericButton.h">
+      <Filter>Arquivos de Cabeçalho\GenericButton</Filter>
+    </ClInclude>
+    <ClInclude Include="EventAlert\EventAlert.h">
+      <Filter>Arquivos de Cabeçalho\EventAlert</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowObj\WindowObj.h">
+      <Filter>Arquivos de Cabeçalho\WindowObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Slot\Slot.h">
+      <Filter>Arquivos de Cabeçalho\Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="Proc\Proc.h">
+      <Filter>Arquivos de Cabeçalho\Proc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCustom\MacroBM3\BM3Macro.h">
+      <Filter>Arquivos de Cabeçalho\GameCustom\MacroBM3</Filter>
+    </ClInclude>
+    <ClInclude Include="Logs\Logs.h">
+      <Filter>Arquivos de Cabeçalho\Logs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCustom\MyDraw\DXColors.h">
+      <Filter>Arquivos de Cabeçalho\GameCustom\MyDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCustom\MyDraw\Objects.h">
+      <Filter>Arquivos de Cabeçalho\GameCustom\MyDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCustom\UserDataContextMapping\UserDataContext.h">
+      <Filter>Arquivos de Cabeçalho\GameCustom\UserDataContextMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCustom\BattleMode\Battlemode.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCustom\Natives\CSkillEntity.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Arquivos de Origem\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketManager\PacketManager.cpp">
+      <Filter>Arquivos de Origem\PacketManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameVersion\GameVersion.cpp">
+      <Filter>Arquivos de Origem\GameVersion</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\Discord.cpp">
+      <Filter>Arquivos de Origem\Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\discord-game-sdk\achievement_manager.cpp">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\discord-game-sdk\activity_manager.cpp">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\discord-game-sdk\application_manager.cpp">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\discord-game-sdk\core.cpp">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\discord-game-sdk\image_manager.cpp">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\discord-game-sdk\lobby_manager.cpp">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\discord-game-sdk\network_manager.cpp">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\discord-game-sdk\overlay_manager.cpp">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\discord-game-sdk\relationship_manager.cpp">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\discord-game-sdk\storage_manager.cpp">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\discord-game-sdk\store_manager.cpp">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\discord-game-sdk\types.cpp">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\discord-game-sdk\user_manager.cpp">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\discord-game-sdk\voice_manager.cpp">
+      <Filter>Arquivos de Cabeçalho\Discord\discord-game-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Basic.cpp">
+      <Filter>Arquivos de Origem\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLSec\DLLSec.cpp">
+      <Filter>Arquivos de Origem\DLLSec</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen\Screen.cpp">
+      <Filter>Arquivos de Origem\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc\WndProc.cpp">
+      <Filter>Arquivos de Origem\WndProc</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\DirectX.cpp">
+      <Filter>Arquivos de Origem\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="BM3Sinergy\BM3Sinergy.cpp">
+      <Filter>Arquivos de Origem\BM3Sinergy</Filter>
+    </ClCompile>
+    <ClCompile Include="cDescription\cDescription.cpp">
+      <Filter>Arquivos de Origem\cDescription</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericButton\GenericButton.cpp">
+      <Filter>Arquivos de Origem\GenericButton</Filter>
+    </ClCompile>
+    <ClCompile Include="EventAlert\EventAlert.cpp">
+      <Filter>Arquivos de Origem\EventAlert</Filter>
+    </ClCompile>
+    <ClCompile Include="Slot\Slot.cpp">
+      <Filter>Arquivos de Origem\Slot</Filter>
+    </ClCompile>
+    <ClCompile Include="Proc\Proc.cpp">
+      <Filter>Arquivos de Origem\Proc</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCustom\MacroBM3\BM3Macro.cpp">
+      <Filter>Arquivos de Origem\GameCustom\MacroBM3</Filter>
+    </ClCompile>
+    <ClCompile Include="Logs\Logs.cpp">
+      <Filter>Arquivos de Origem\Logs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCustom\UserDataContextMapping\UserDataContext.cpp">
+      <Filter>Arquivos de Origem\GameCustom\UserDataContextMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCustom\MyDraw\Objects.cpp">
+      <Filter>Arquivos de Origem\GameCustom\MyDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCustom\BattleMode\Battlemode.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="discord_game_sdk.dll.lib">
+      <Filter>Arquivos de Origem</Filter>
+    </Library>
+    <Library Include="3rdparty\VMProtect\lib\VMProtectSDK32.lib">
+      <Filter>Arquivos de Cabeçalho\3rdparty\VMProtect</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

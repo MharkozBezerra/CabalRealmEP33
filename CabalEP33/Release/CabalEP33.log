@@ -1,0 +1,73 @@
+﻿  Basic.cpp
+  BM3Sinergy.cpp
+  cDescription.cpp
+  DirectX.cpp
+  achievement_manager.cpp
+  activity_manager.cpp
+  application_manager.cpp
+  core.cpp
+  image_manager.cpp
+  lobby_manager.cpp
+  network_manager.cpp
+  overlay_manager.cpp
+  relationship_manager.cpp
+  storage_manager.cpp
+  store_manager.cpp
+  types.cpp
+  user_manager.cpp
+  voice_manager.cpp
+  Discord.cpp
+  DLLSec.cpp
+  EventAlert.cpp
+  Battlemode.cpp
+  BM3Macro.cpp
+  Objects.cpp
+  UserDataContext.cpp
+  GameVersion.cpp
+  GenericButton.cpp
+  Logs.cpp
+  Main.cpp
+  Game.cpp
+  PacketManager.cpp
+  Proc.cpp
+  Screen.cpp
+  Slot.cpp
+  WndProc.cpp
+C:\Cabal Source\CabalNoeEP33\CabalEP33\GameCustom\UserDataContextMapping\UserDataContext.cpp(35,56): warning C4244: 'return': conversion from 'double' to 'INT64', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\GameCustom\UserDataContextMapping\UserDataContext.cpp(42,22): warning C4244: 'initializing': conversion from 'INT64' to 'double', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\DirectX\DirectX.cpp(356,23): warning C4838: conversion from 'float' to 'D3DCOLOR' requires a narrowing conversion
+C:\Cabal Source\CabalNoeEP33\CabalEP33\DirectX\DirectX.cpp(356,23): warning C4244: 'initializing': conversion from 'float' to 'D3DCOLOR', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\DirectX\DirectX.cpp(357,31): warning C4838: conversion from 'float' to 'D3DCOLOR' requires a narrowing conversion
+C:\Cabal Source\CabalNoeEP33\CabalEP33\DirectX\DirectX.cpp(357,31): warning C4244: 'initializing': conversion from 'float' to 'D3DCOLOR', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\DirectX\DirectX.cpp(358,32): warning C4838: conversion from 'float' to 'D3DCOLOR' requires a narrowing conversion
+C:\Cabal Source\CabalNoeEP33\CabalEP33\DirectX\DirectX.cpp(358,32): warning C4244: 'initializing': conversion from 'float' to 'D3DCOLOR', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\DirectX\DirectX.cpp(359,40): warning C4838: conversion from 'float' to 'D3DCOLOR' requires a narrowing conversion
+C:\Cabal Source\CabalNoeEP33\CabalEP33\DirectX\DirectX.cpp(359,40): warning C4244: 'initializing': conversion from 'float' to 'D3DCOLOR', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\DirectX\DirectX.cpp(380,80): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\DirectX\DirectX.cpp(380,59): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\EventAlert\EventAlert.cpp(226,28): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\EventAlert\EventAlert.cpp(227,28): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\EventAlert\EventAlert.cpp(228,28): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\EventAlert\EventAlert.cpp(231,31): warning C4244: '=': conversion from 'float' to 'DWORD', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\DLLSec\DLLSec.cpp(86,14): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Cabal Source\CabalNoeEP33\CabalEP33\DLLSec\DLLSec.cpp(112,13): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Cabal Source\CabalNoeEP33\CabalEP33\DLLSec\DLLSec.cpp(141,13): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Cabal Source\CabalNoeEP33\CabalEP33\GameCustom\MyDraw\Objects.cpp(276,167): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\GameCustom\MyDraw\Objects.cpp(276,123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\GameCustom\MyDraw\Objects.cpp(276,80): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\GameCustom\MyDraw\Objects.cpp(276,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\GameCustom\MyDraw\Objects.cpp(312,42): warning C4474: 'printf' : too many arguments passed for format string
+C:\Cabal Source\CabalNoeEP33\CabalEP33\GameCustom\MyDraw\Objects.cpp(312,42): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+C:\Cabal Source\CabalNoeEP33\CabalEP33\GameCustom\MyDraw\Objects.cpp(340,183): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\GameCustom\MyDraw\Objects.cpp(340,135): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\GameCustom\MyDraw\Objects.cpp(340,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\GameCustom\MyDraw\Objects.cpp(340,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\GameCustom\MyDraw\Objects.cpp(993,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\GameCustom\MyDraw\Objects.cpp(995,19): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Cabal Source\CabalNoeEP33\CabalEP33\GameCustom\MacroBM3\BM3Macro.cpp(142,110): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+C:\Cabal Source\CabalNoeEP33\CabalEP33\GameCustom\MacroBM3\BM3Macro.cpp(968,27): warning C4018: '>': signed/unsigned mismatch
+C:\Cabal Source\CabalNoeEP33\CabalEP33\BM3Sinergy\BM3Sinergy.cpp(135,28): warning C4018: '>=': signed/unsigned mismatch
+C:\Cabal Source\CabalNoeEP33\CabalEP33\BM3Sinergy\BM3Sinergy.cpp(195,47): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  CabalEP33.vcxproj -> C:\Cabal Source\CabalNoeEP33\Release\CabalRealm.dll
+  C:\Cabal Source\CabalNoeEP33\Release\CabalRealm.dll
+  1 arquivo(s) copiado(s)
