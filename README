@@ -1,0 +1,165 @@
+## CabalRealm EP33 - Ingens Proelium
+
+- CabalRealm EP33 é uma biblioteca de extensão para o MMORPG Cabal Online, especificamente para a versão Episode 33 (EP33). Este projeto fornece modificações personalizadas, melhorias e ferramentas para o cliente do jogo.
+Visão Geral
+
+- CabalRealm EP33 é uma DLL de injeção que aprimora a experiência de jogo no Cabal Online por meio de diversos recursos e modificações no cliente. O projeto foca em estender a funcionalidade do cliente original, oferecendo recursos adicionais e melhorias na qualidade de vida.
+## Componentes e Recursos Detalhados
+### 1. Sistema Base
+    - Configurações Principais (Base.h)
+    - Configurações do ambiente de desenvolvimento com a opção DEV_MODE
+    - Configuração do sistema anti-cheat XignCode com XIGNCODE_VERSION_NA
+    - Sistema de proteção de código com VMProtect, oferecendo diferentes níveis de segurança
+    - Suporte para executar múltiplas instâncias (até 6 no modo desenvolvedor)
+
+### 2. Modificações no Jogo (Game.cpp)
+
+    - Bypass das verificações anti-debug (em modo desenvolvedor)
+    - Alteração do método de carregamento do XignCode
+    - Bypass de verificações de CRC e integridade de arquivos
+    - Remoção de restrições de diretório de trabalho
+    - Modificação de valores da interface, incluindo aumento do limite de caracteres do chat para 160
+    - Personalização do título da janela do jogo para "Cabal Realm EP33 - Ingens Proelium"
+
+## 3. Sistema de Gerenciamento de Pacotes (Packet Manager)
+
+## 4. Manipulação de Pacotes (PacketManager.cpp/PacketManager.h)
+    - Interceptação de pacotes entre cliente e servidor
+    - Suporte para diferentes tipos de socket: Login, Mundo, Grupo e Chat
+    - Sistema de criptografia e descriptografia de pacotes com XorKeyTable
+    - Implementação de hooks personalizados para processamento de pacotes
+
+## 5. Definições de Protocolo (ProtosDef.h/ProtoDefEx.h)
+    - Estruturas completas de cabeçalhos de pacotes
+    - Definições personalizadas de identificadores de pacotes
+    - Suporte para extensão de recursos de comunicação do jogo
+
+## 6. Sistema de Macro BM3 e Sinergia
+    - Macro para Battle Mode 3 (BM3Macro.cpp/BM3Macro.h)
+    - Interface gráfica personalizada para gerenciamento de sinergia
+    - Suporte para até 4 sequências de sinergia com 3 opções cada
+    - Configuração de ataques fatais com até 3 variações
+    - Sistema de salvamento e carregamento das configurações de sinergia
+    - Visualização da interface minimizada ou maximizada
+    - Ativação automática das sinergias com base nas configurações salvas
+
+## 6.Sistema de Sinergia (BM3Sinergy.cpp/BM3Sinergy.h)
+    - Interceptação e modificação do processamento de sinergia do jogo
+    - Rastreamento das sinergias ativas do jogador
+    - Sistema para carregamento de informações de sinergia via JSON
+    - Manipulação de nível de sinergia e proxy
+    - Interface visual para exibição de informações sobre sinergias ativas
+
+## 7. Sistema de Alertas de Eventos
+    - Alertas de Eventos (EventAlert.cpp/EventAlert.h)
+    - Notificações visuais para eventos importantes no jogo
+    - Sistema de fila para exibir múltiplos alertas sequencialmente
+    - Suporte para diferentes tipos de eventos (quedas de itens, criação de itens)
+    - Aparência e duração dos alertas personalizáveis
+    - Integração com o sistema de chat para anúncios de eventos
+    - Exibição detalhada de itens obtidos, incluindo propriedades e estatísticas
+
+## 8. Integração com Discord
+    - Rich Presence (Discord.cpp/Discord.h)
+    - Integração com o Discord Game SDK para exibir o status do jogador
+    - Atualização automática do status com base na atividade do jogador
+    - Exibição de informações como classe, nação e mapa atual
+    - Indicação do estado de grupo/party e guilda
+    - Suporte para diferentes estados do jogo (lobby, criação de personagem, jogando)
+    - Exibição de tempo de duração da sessão de jogo
+
+## 9. Gerenciamento de DirectX
+    - Manipulação Gráfica (DirectX.cpp/DirectX.h)
+    - Hooks personalizados para DirectX9
+    - Sistema de gerenciamento de fontes com diferentes tamanhos e estilos
+    - Carregamento e manipulação de texturas do jogo
+    - Funções para desenhar elementos personalizados na interface
+    - Suporte para sprites, textos e elementos de UI
+    - Gerenciamento de estados de renderização e objetos do DirectX
+
+## 10. Sistema de Interface Personalizada (Objects.cpp/Objects.h)
+    - Framework completo para criação de elementos de interface
+    - Suporte para botões, caixas de texto, imagens e elementos interativos
+    - Sistema de callback para eventos de mouse e teclado
+    - Posicionamento dinâmico de elementos com base na resolução do jogo
+    - Efeitos visuais como hover, seleção e animações
+    - Gerenciamento de transparência e camadas de renderização
+
+## 11. Sistema de Memória e Segurança
+    - Manipulação de Memória
+    - Utilitários para leitura e escrita segura na memória
+    - Sistema de hooks para funções do jogo
+    - Bypass de proteções de memória
+    - Funções para alteração de valores específicos no cliente
+
+## 12. Proteção da DLL (DLLSec)
+    - Proteção contra tentativas de injeção ou manipulação
+    - Verificações de integridade da DLL
+    - Sistema anti-tamper para bibliotecas e arquivos críticos
+
+## 13. Recursos Adicionais
+    - Descrições Personalizadas (cDescription)
+    - Sistema aprimorado para exibição de tooltips e descrições de itens
+    - Suporte para formatação de texto personalizada
+    - Exibição de estatísticas adicionais em itens e habilidades
+
+## 14. Personalização de Janelas (WindowObj)
+    - Framework para criação e gerenciamento de janelas personalizadas
+    - Sistema de posicionamento e salvamento de configurações
+    - Manipulação de eventos de interface para janelas e objetos
+
+## 15. Slots Personalizados (Slot)
+    - Sistema para manipulação e exibição de itens em slots personalizados
+    - Integração com o sistema de inventário do jogo
+    - Suporte para arrastar e soltar, além de interação com itens
+
+## 16. Manipulação de Procedimentos (Proc)
+    - Sistema para hooks em procedimentos do jogo
+    - Gerenciamento de callbacks para eventos do cliente
+    - Redirecionamento de funções do jogo para implementações personalizadas
+    - Battle Mode Personalizado (GameCustom/BattleMode)
+    - Melhorias nos sistemas de Battle Mode do jogo
+    - Ajustes de desempenho e balanceamento
+    - Recursos adicionais para os diferentes modos de batalha
+
+## Como Usar
+Requisitos
+    Cliente Cabal Online Episode 33
+    Windows 10 ou superior (32/64 bits)
+    DirectX9 instalado
+
+## Instalação
+    - Coloque a DLL CabalEP33.dll na pasta do jogo
+    - Use um injetor de DLL compatível ou configure o jogo para carregar a biblioteca
+    - Inicie o cliente do jogo
+
+## Configurações:
+    - As configurações de interface são salvas automaticamente
+    - As configurações do BM3 Macro são salvas em \Data\UserData\BM3Macro
+    - Elementos visuais personalizados são armazenados em \Data\UserData\
+
+## Atalhos e Comandos
+    - F11: Mostrar/ocultar interface do BM3 Macro
+    - F12: Ativar/Desativar BM3 Macro
+    - Ctrl+Clique nos elementos do macro para atribuir sinergias
+
+## Tecnologias Utilizadas
+    - C++: Linguagem principal do projeto
+    - DirectX9: Para manipulação de elementos gráficos
+    - VMProtect: Sistema de proteção de código contra engenharia reversa
+    - Discord Game SDK: Para integração Rich Presence com Discord
+    - JSON: Para armazenamento e leitura de configurações
+    - Boost: Utilizado para manipulação de propriedades e árvores JSON
+
+## Notas Técnicas
+    - A biblioteca modifica a memória do cliente do jogo em tempo de execução
+    - Algumas modificações alteram o comportamento original do anti-cheat
+    - O sistema utiliza hooks nas APIs do DirectX e do Windows para implementar recursos
+    - A maior parte do código está protegida com VMProtect para evitar engenharia reversa
+    - O modo de desenvolvedor (`DEV_MODE`) permite saída de console para depuração
+
+## Notas Legais
+
+    Este projeto é específico para a versão Episode 33 do Cabal Online e pode não ser compatível com outras versões do jogo. A biblioteca deve ser injetada no cliente do jogo e modifica diversas funções internas, incluindo manipulação de memória e comunicação com o servidor.
+
+    Nota: Este projeto é destinado apenas para fins educacionais e de desenvolvimento. O uso desta biblioteca pode violar os termos de serviço do Cabal Online. Os usuários são responsáveis pelo uso desta biblioteca
